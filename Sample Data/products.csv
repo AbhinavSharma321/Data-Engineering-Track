@@ -1,0 +1,21 @@
+Product ID,Product Name,Category,Sub Category,Price,Price Currency,Stock
+1,Laptop,Electronics,Mobile,2084.66,USD,94
+2,Smartphone,Electronics,Audio,2948.17,USD,91
+3,Tablet,Electronics,Gaming,349.22,USD,55
+4,Smartwatch,Electronics,Gaming,1803.71,USD,81
+5,Wireless Earbuds,Electronics,Gaming,616.41,USD,42
+6,Gaming Console,Electronics,Gaming,624.51,USD,23
+7,Monitor,Electronics,Audio,2307.92,USD,38
+8,Mechanical Keyboard,Electronics,Audio,459.38,USD,67
+9,External Hard Drive,Electronics,Accessories,2110.69,USD,58
+10,Smart TV,Electronics,Accessories,611.33,USD,85
+11,Bluetooth Speaker,Electronics,Computing,2041.78,USD,29
+12,VR Headset,Electronics,Audio,2199.13,USD,19
+13,Drone,Electronics,Wearable,925.69,USD,59
+14,Action Camera,Electronics,Audio,2048.76,USD,26
+15,Power Bank,Electronics,Gaming,1736.19,USD,73
+16,Graphics Card,Electronics,Wearable,2034.41,USD,11
+17,Wireless Router,Electronics,Gaming,1206.46,USD,6
+18,E-Reader,Electronics,Audio,2086.3,USD,67
+19,Portable Projector,Electronics,Gaming,885.96,USD,23
+20,Noise-Canceling Headphones,Electronics,Audio,444.74,USD,24
