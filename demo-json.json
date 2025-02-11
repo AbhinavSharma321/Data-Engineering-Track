@@ -1,0 +1,66 @@
+{
+	"products": [{
+		"id": 1,
+		"name": "Wireless Bluetooth Headphones",
+		"category": "Electronics",
+		"price": {
+			"amount": 59.99,
+			"currency": "USD",
+			"discount": {
+				"percentage": 10,
+				"valid_until": "2025-02-15"
+			}
+		},
+		"availability": {
+			"status": {
+				"in_stock": true,
+				"quantity": 150
+			}
+		}
+	},{
+		"id": 2,
+		"name": "Headphones",
+		"category": "Electronics",
+		"price": {
+			"amount": 59.99,
+			"currency": "USD",
+			"discount": {}
+		},
+		"availability": {
+			"status": {
+				"in_stock": true,
+				"quantity": 150
+			}
+		}
+	},{
+		"id": 3,
+		"name": "TVs",
+		"category": "Electronics",
+		"price": {
+			"amount": 59.99,
+			"currency": "USD",
+			"discount": {
+				"percentage": 10,
+				"valid_until": "2025-02-15"
+			}
+		},
+		"availability": {
+			"status": {}
+		}
+	},{
+		"id": 4,
+		"name": "Laptops",
+		"category": "Electronics",
+		"price": {
+			"amount": 800,
+			"currency": "USD",
+			"discount": {
+				"percentage": 10,
+				"valid_until": "2025-02-15"
+			}
+		},
+		"availability": {
+			"status": {}
+		}
+	}]
+}
