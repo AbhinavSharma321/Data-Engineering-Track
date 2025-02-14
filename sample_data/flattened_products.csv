@@ -1,0 +1,5 @@
+id,name,category,price_amount,price_currency,discount_percentage,discount_valid_until,in_stock,quantity
+1,Wireless Bluetooth Headphones,Electronics,59.99,USD,10.0,2025-02-15,True,150.0
+2,Headphones,Electronics,59.99,USD,,,True,150.0
+3,TVs,Electronics,59.99,USD,10.0,2025-02-15,,
+4,Laptops,Electronics,800.0,USD,10.0,2025-02-15,,
