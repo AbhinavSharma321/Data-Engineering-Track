@@ -87,3 +87,19 @@ LEFT JOIN API_DB.API_SCHEMA.FISCAL_CALENDAR f
 WHERE f."Date" IS NULL;
 
 
+-- create view Customer Purchase summary view
+CREATE OR REPLACE VIEW API_SCHEMA.v_cust_purch_summary_f AS
+SELECT 
+    c."Customer ID",
+    c."Customer Name",
+    COUNT(DISTINCT o."Order ID") AS Total_Orders,
+    SUM(o."Total Price") AS Total_Spent,
+    MIN(o."Date") AS First_Order_Date,
+    AVG(o."Total Price") AS Avg_Order_Value,
+    AVG(o."Total Price" * p."Price") AS Avg_Org_Earnings
+FROM API_DB.API_SCHEMA.ORDERS o
+JOIN API_DB.API_SCHEMA.CUSTOMERS c 
+    ON o."Customer ID" = c."Customer ID"
+JOIN API_DB.API_SCHEMA.PRODUCTS p 
+    ON o."Product ID" = p."Product ID"
+GROUP BY c."Customer ID", c."Customer Name";
