@@ -181,7 +181,7 @@ SELECT
     SUM(o."Total Price" - (p."Price" * o."Quantity")) AS Expected_Total_Profit
 FROM API_DB.API_SCHEMA.ORDERS o
 JOIN API_DB.API_SCHEMA.PRODUCTS p ON o."Product ID" = p."Product ID"
-WHERE o."Product ID" = 101 -- Replace with an actual Product ID
+WHERE o."Product ID" = 18
 GROUP BY o."Product ID", p."Product Name";
 
 
